@@ -416,10 +416,10 @@
             </li>
           </ul>
         </div>
-        <div class="subscribe">
-          <form class="subscribe-form">
-            <label class="subscribe-label"
-              >Subscribe
+        <form class="subscribe-form">
+          <p class="subscribe-label-text">Subscribe</p>
+          <div class="sub-container">
+            <label class="subscribe-label">
               <input
                 class="subscribe-input"
                 type="email"
@@ -433,8 +433,8 @@
                 <use href="./images/symbol-defs.svg#send"></use>
               </svg>
             </button>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -448,27 +448,38 @@
         <form class="modal-form">
           <label class="modal-label"
             >Name
-            <input type="text" class="modal-input" name="name" autofocus="on" />
-            <svg class="input-icon">
-              <use href="./images/symbol-defs.svg#name"></use>
-            </svg>
+            <div class="input-container">
+              <input
+                type="text"
+                class="modal-input"
+                name="name"
+                autofocus="on"
+              />
+              <svg class="input-icon">
+                <use href="./images/symbol-defs.svg#name"></use>
+              </svg>
+            </div>
           </label>
           <label class="modal-label"
             >Phone
-            <input type="tel" class="modal-input" name="tel" />
-            <svg class="input-icon">
-              <use href="./images/symbol-defs.svg#phone"></use>
-            </svg>
+            <div class="input-container">
+              <input type="tel" class="modal-input" name="tel" />
+              <svg class="input-icon">
+                <use href="./images/symbol-defs.svg#phone"></use>
+              </svg>
+            </div>
           </label>
           <label class="modal-label"
             >Email
-            <input class="modal-input" type="email" name="email" />
-            <svg class="input-icon">
-              <use href="./images/symbol-defs.svg#envelope"></use>
-            </svg>
+            <div class="input-container">
+              <input class="modal-input" type="email" name="email" />
+              <svg class="input-icon">
+                <use href="./images/symbol-defs.svg#envelope"></use>
+              </svg>
+            </div>
           </label>
 
-          <label class="modal-label"
+          <label class="modal-label-textarea"
             >Comment
             <textarea
               class="modal-textarea"
