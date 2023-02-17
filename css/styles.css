@@ -589,6 +589,7 @@ a {
 }
 .subscribe-btn {
   display: flex;
+  align-items: center;
 
   width: 165px;
   height: 40px;
